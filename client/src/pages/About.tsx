@@ -17,6 +17,10 @@ import {
 export default function About() {
   useEffect(() => {
     document.title = "About Us - Ribison Chemicals | Leading Chemical Manufacturer";
+<<<<<<< HEAD
+=======
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+>>>>>>> dc5f3b6 (upgrade for first phase ... .. .)
   }, []);
 
   return (

@@ -68,6 +68,10 @@ const testimonials = [
 export default function Home() {
   useEffect(() => {
     document.title = "Ribison Chemicals - Leading Chemical Manufacturing Company | Premium Industrial Solutions";
+<<<<<<< HEAD
+=======
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+>>>>>>> dc5f3b6 (upgrade for first phase ... .. .)
     
     // Add meta description for SEO
     const metaDescription = document.querySelector('meta[name="description"]');

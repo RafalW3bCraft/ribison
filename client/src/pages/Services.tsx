@@ -127,6 +127,10 @@ const capabilities = [
 export default function Services() {
   useEffect(() => {
     document.title = "Our Services - Ribison Chemicals | Chemical Manufacturing Excellence";
+<<<<<<< HEAD
+=======
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+>>>>>>> dc5f3b6 (upgrade for first phase ... .. .)
   }, []);
 
   return (

@@ -97,6 +97,10 @@ const applications = [
 export default function Portfolio() {
   useEffect(() => {
     document.title = "Our Portfolio - Ribison Chemicals | Chemical Sectors & Solutions";
+<<<<<<< HEAD
+=======
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+>>>>>>> dc5f3b6 (upgrade for first phase ... .. .)
   }, []);
 
   return (

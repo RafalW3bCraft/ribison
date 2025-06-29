@@ -71,6 +71,14 @@ export default function Contact() {
   const [, setLocation] = useLocation();
   const { toast } = useToast();
 
+<<<<<<< HEAD
+=======
+  useEffect(() => {
+    document.title = "Contact Us - Ribison Chemicals | Get In Touch";
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
+
+>>>>>>> dc5f3b6 (upgrade for first phase ... .. .)
   const form = useForm<ContactFormData>({
     resolver: zodResolver(insertContactSchema),
     defaultValues: {

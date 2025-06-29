@@ -47,12 +47,23 @@ export default function Navigation() {
       <div className="container-responsive">
         <div className="flex justify-between items-center h-16 xs:h-18 sm:h-20">
           {/* Logo */}
+<<<<<<< HEAD
           <Link href="/" className="flex items-center space-x-2 xs:space-x-3 hover:scale-105 transition-transform duration-300 group">
             <div className="relative p-1">
               <div className="h-10 xs:h-12 sm:h-14 lg:h-16 flex items-center">
                 <span className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-ribison-accent to-orange-600 bg-clip-text text-transparent">
                   Ribison
                 </span>
+=======
+          <Link href="/" className="flex items-center space-x-2 xs:space-x-3 hover:scale-105 transition-transform duration-300 group" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+            <div className="relative p-1">
+              <div className="h-10 xs:h-12 sm:h-14 lg:h-16 flex items-center">
+                <img 
+                  src="/assets/logo.png" 
+                  alt="Ribison Chemicals Logo" 
+                  className="h-8 xs:h-10 sm:h-12 lg:h-14 w-auto"
+                />
+>>>>>>> dc5f3b6 (upgrade for first phase ... .. .)
               </div>
             </div>
           </Link>
@@ -64,6 +75,10 @@ export default function Navigation() {
                 <Link
                   key={item.href}
                   href={item.href}
+<<<<<<< HEAD
+=======
+                  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+>>>>>>> dc5f3b6 (upgrade for first phase ... .. .)
                   className={cn(
                     "nav-link relative py-2 px-1",
                     "after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-ribison-primary after:left-0 after:bottom-0 after:transition-all after:duration-300",
@@ -113,9 +128,17 @@ export default function Navigation() {
                 <div className="flex flex-col h-full">
                   <div className="flex items-center justify-between mb-8 pt-4">
                     <div className="flex items-center">
+<<<<<<< HEAD
                       <span className="text-3xl font-bold bg-gradient-to-r from-ribison-accent to-orange-600 bg-clip-text text-transparent">
                         Ribison
                       </span>
+=======
+                      <img 
+                        src="/assets/logo.png" 
+                        alt="Ribison Chemicals Logo" 
+                        className="h-10 w-auto"
+                      />
+>>>>>>> dc5f3b6 (upgrade for first phase ... .. .)
                     </div>
                   </div>
                   
@@ -124,7 +147,14 @@ export default function Navigation() {
                       <Link
                         key={item.href}
                         href={item.href}
+<<<<<<< HEAD
                         onClick={() => setMobileMenuOpen(false)}
+=======
+                        onClick={() => {
+                          setMobileMenuOpen(false);
+                          window.scrollTo({ top: 0, behavior: 'smooth' });
+                        }}
+>>>>>>> dc5f3b6 (upgrade for first phase ... .. .)
                         className={cn(
                           "text-base font-medium transition-all duration-200 py-4 px-4 rounded-lg",
                           isActivePath(item.href)

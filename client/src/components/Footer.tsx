@@ -48,7 +48,11 @@ export default function Footer() {
               {/* Logo and Company Name */}
               <div className="flex flex-col xs:flex-row xs:items-center space-y-4 xs:space-y-0 xs:space-x-4 mb-6">
                 <img 
+<<<<<<< HEAD
                   src="/attached_assets/logo.png" 
+=======
+                  src="/assets/logo.png" 
+>>>>>>> dc5f3b6 (upgrade for first phase ... .. .)
                   alt="Ribison Chemicals Company - Leading Chemical Innovation" 
                   className="h-14 xs:h-16 w-auto object-contain"
                   loading="lazy"
@@ -170,7 +174,18 @@ export default function Footer() {
               © 2024 Ribison Chemicals Company. All rights reserved.
             </p>
             <p className="text-ribison-neutral-400 dark:text-ribison-neutral-400 text-xs xs:text-sm text-center xs:text-right">
+<<<<<<< HEAD
               Designed By <span className="text-ribison-primary dark:text-ribison-primary-400 font-medium">RafalW3bCraft</span>
+=======
+              Designed By <a 
+                href="https://t.me/RafalW3bCraft" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-ribison-primary dark:text-ribison-primary-400 font-medium hover:text-ribison-primary-600 dark:hover:text-ribison-primary-300 transition-colors duration-300"
+              >
+                RafalW3bCraft
+              </a>
+>>>>>>> dc5f3b6 (upgrade for first phase ... .. .)
             </p>
           </div>
         </div>
