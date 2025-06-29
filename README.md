@@ -22,14 +22,12 @@ A modern, professional website for Ribison Chemicals Company featuring comprehen
 - **TypeScript** - Type-safe JavaScript development
 - **Tailwind CSS** - Utility-first CSS framework
 - **Vite** - Fast build tool and development server
-- **Vercel/Replit** - Frontend hosting and deployment
 
 ### Backend Services
 - **Node.js + Express** - Server-side JavaScript runtime
 - **Neon Database** - Serverless PostgreSQL database
 - **Drizzle ORM** - Type-safe database operations
 - **PHPMailer** - Professional email delivery system
-- **Replit Hosting** - Backend deployment platform
 
 ### Third-Party Integrations
 - **Google Maps API** - Location and mapping services
@@ -65,7 +63,6 @@ A modern, professional website for Ribison Chemicals Company featuring comprehen
    SMTP_PORT=587
    SMTP_USERNAME=your-email@domain.com
    SMTP_PASSWORD=your-app-password
-   COMPANY_EMAIL=info@ribisonchemicals.com
    ```
 
 4. **Run the website**
@@ -81,7 +78,6 @@ A modern, professional website for Ribison Chemicals Company featuring comprehen
 1. **Development**: Run `npm run dev` to start local development
 2. **Build**: Run `npm run build` to create production build
 3. **Testing**: Test contact form and email functionality locally
-4. **Deploy**: Push to Replit or your hosting platform
 
 ### For Business Users
 1. **Contact Forms**: All form submissions are automatically stored and emailed
@@ -167,21 +163,6 @@ The contact form integrates with a comprehensive email system:
 ### Testing
 The email system has been thoroughly tested with **95.2% success rate** (20/21 tests passed).
 
-## 🎯 API Endpoints
-
-### Contact Form
-- `POST /api/contact` - Submit new contact form
-- `GET /api/contacts` - Retrieve all contact submissions (admin)
-
-### Response Format
-```json
-{
-  "success": true,
-  "message": "Contact form submitted successfully",
-  "id": 1
-}
-```
-
 ## 🌙 Theme System
 
 Professional dark/light theme implementation:
@@ -231,12 +212,6 @@ Optimized for all device types:
 - **Zod Validation** - Runtime type validation
 
 ## 🚀 Deployment
-
-### Replit Deployment (Recommended)
-1. Push code to repository
-2. Connect to Replit
-3. Configure environment variables
-4. Click Deploy button
 
 ### GoDaddy VPS Deployment
 Detailed deployment guide available in the documentation for:
@@ -337,7 +312,6 @@ SOFTWARE.
 ## 🏆 Credits
 
 **Developed by**: RafalW3bCraft  
-**Client**: Ribison Chemicals Company  
 **Version**: 1.0.0  
 **License**: MIT  
 **Last Updated**: June 29, 2025  
