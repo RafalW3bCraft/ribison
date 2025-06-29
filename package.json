@@ -1,6 +1,7 @@
 {
   "name": "rest-express",
   "version": "1.0.0",
+  "author": "RafalW3bCraft",
   "type": "module",
   "license": "MIT",
   "scripts": {
