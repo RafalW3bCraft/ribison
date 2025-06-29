@@ -48,7 +48,7 @@ A modern, professional website for Ribison Chemicals Company featuring comprehen
 1. **Download the project**
    ```bash
    git clone <repository-url>
-   cd ribison-chemicals
+   cd RibisonChemicalCo.
    ```
 
 2. **Install everything**
@@ -94,7 +94,7 @@ A modern, professional website for Ribison Chemicals Company featuring comprehen
 ## 📁 Project Structure
 
 ```
-ribison-chemicals/
+RibisonChemicalCo./
 ├── client/                 # Frontend React application
 │   ├── src/
 │   │   ├── components/     # Reusable UI components
